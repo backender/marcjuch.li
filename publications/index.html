@@ -1,0 +1,15 @@
+---
+layout: page
+title: "Publications"
+description: ""
+group: navigation
+---
+{% include JB/setup %}
+<span style="float:left;"><a href="{{ BASE_PATH }}/archive.html">Archive</a> | <a href="{{ BASE_PATH }}/categories.html">Categories</a> | <a href="{{ BASE_PATH }}/tags.html">Tags</a></span><span style="float: right;">Feed: <a href="{{ BASE_PATH }}/atom.xml">Atom</a> | <a href="{{ BASE_PATH }}/rss.xml">Rss</a></span>
+<table class="table">
+    {% for post in site.categories.publication %}
+    <tr>
+        <td><span style="float:right">{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></td>
+    </tr>
+    {% endfor %}
+</table>
