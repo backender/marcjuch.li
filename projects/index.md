@@ -28,7 +28,7 @@ With interests in server administration, service quality, availability as well a
 
 We are specialized on individual hosting setups especially on Symfony hosting setups for ambitious clients they appreciate a harmonized server/application environment.
 
-**Hostag Hosting Agency, Owner & CEO**
+**Hostag, Owner & CEO**
 
 <a target="_blank" href="http://hostag.ch">www.hostag.ch</a>
 *(under construction)*

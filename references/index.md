@@ -32,5 +32,5 @@ group: navigation
 
 * * *
  
-## Low cost template Sites
+## Template Sites and other simple Sites
 To be found on: <a href="http://codag.co" target="_blank">Codag Commercial</a>
