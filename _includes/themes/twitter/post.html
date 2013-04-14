@@ -10,7 +10,7 @@
     <div class="content">
       {{ content }}
     </div>
-
+    <br />
   {% unless page.categories == empty %}
     <ul class="tag_box inline">
       <li><i class="icon-folder-open"></i></li>
@@ -29,6 +29,14 @@
 
     <hr>
     <div class="pagination">
+        <span style="float:right; padding-top: 2.5px;">
+            <a class="FlattrButton"
+               href="http://marcjuch.li{{ page.url }}"
+               title="{{ page.title }}"
+               lang="en"
+               data-flattr-uid="marcjuchli"
+            ></a>
+        </span>
       <ul>
       {% if page.previous %}
         <li class="prev"><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Previous</a></li>
