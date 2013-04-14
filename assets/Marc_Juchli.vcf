@@ -1,0 +1,22 @@
+BEGIN:VCARD
+VERSION:2.1
+N:Juchli;Marc;;
+FN:Marc Juchli
+ORG:Codag GmbH
+TEL;WORK;VOICE:0797255171
+ADR;WORK:;;Aettigüpfstrasse 5;Zufikon;AG;5621;Schweiz
+LABEL;WORK;ENCODING=QUOTED-PRINTABLE:Codag GmbH=0D=0A=
+ Marc Juchli=0D=0A=
+ Aettigüpfstrasse 5=0D=0A=
+ 5621 Zufikon, AG, Schweiz
+ADR;HOME:;Aettigüpfstrasse 5;;Zufikon;AG;5621;Schweiz
+LABEL;HOME;ENCODING=QUOTED-PRINTABLE: Marc Juchli=0D=0A=
+ Aettigüpfstrasse 5=0D=0A=
+ 5621 Zufikon, AG, Schweiz
+X-WAB-GENDER:2
+URL;HOME:http://www.marcjuch.li
+URL;WORK:http://www.codag.ch
+BDAY:19910623
+EMAIL;PREF;INTERNET:mj@codag.ch
+REV:20130414T200003Z
+END:VCARD
