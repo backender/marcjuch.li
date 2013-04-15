@@ -13,7 +13,7 @@ I've built this website for a couple of reasons which I categorized as follows:
 
 - To be more structured
 - To improve my english skills
-- To improve my writer skills
+- To improve my writing skills
 
 **About:**
 
