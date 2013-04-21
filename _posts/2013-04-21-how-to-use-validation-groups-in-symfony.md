@@ -7,9 +7,9 @@ tags: [symfony2, form, validation]
 ---
 {% include JB/setup %}
 
-In this post I'm going to show how to use validation groups in symfony with the example of an order form.
+In this post I'm going to show how to use validation groups in symfony according to a simple example of an order form.
 
-The validation groups allow to specify which validation assertions (as groups) should be used when you are validating a model.
+The validation groups allow to specify which validation assertions (considered as groups) should be used when a model is validated.
 
 ## Problem
 A form should offer the possibility to use separate billing and shipping adresses. Therefore we use a **checkbox**. If the checkbox is selected, it means the user would like to order to a separate shipping adress. So we have to determine which fields of our form should be validated during the form handling process.
@@ -20,13 +20,13 @@ A form should offer the possibility to use separate billing and shipping adresse
 
 Basically we make the following steps:
 
-- **Group** validation contstraints for the shipping related form fields together
+- **Group** validation contstraints for the shipping related form fields 
 - **Determine** which validation contraints are applied, depending on the checkbox value in the submitted form
 - **Copy** data from non-shipping fields to shipping fields if checkbox is not selected *(this step is optional)*
 
 ### Model
 
-The below listed Symfony2 entity with annotations (provided with [SensioFrameworkExtraBundle](http://symfony.com/doc/2.1/bundles/SensioFrameworkExtraBundle/index.html)) and assertions which describes the following model:
+The below listed entity using annotations (provided with [SensioFrameworkExtraBundle](http://symfony.com/doc/2.1/bundles/SensioFrameworkExtraBundle/index.html)) and assertions describes the following model:
 
 - Book (from a fictive Book Entity)
 - Lastname
