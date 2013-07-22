@@ -15,6 +15,10 @@ tags: [symfony2, alchemyapi]
 
 The CodagAlchemyApiBundle provides an [AlchemyAPI](http://www.alchemyapi.com/) integration for your Symfony2 Project.
 
+### Note
+
+> *The inital deployment of this bundle provides an unimpressive amount of functionality regarding to the powerful api of AlchemyAPI. The given implementation was needed for a project at Codag which was one of the reasons I decided to launch this bundle – next to the fact that there was no other implementation available and I'm always glad to contribute to the community. I've investigated some time in thinking about structure, scalability as well as usage of this bundle. Now it's time to extend the functionality of this bundle and I hope there are Symfony developers they already can use this bundle and will contribute if further implementation was neccessary.*
+
 ## Structure
 
 The structure of this bundle is leant to the structure of the AlchemyAPI RESTful API. This will bring more complexity in the usage of this bundle but will provide scalability.
@@ -86,7 +90,3 @@ This is an open source project and can be found under the following links:
 
 * [Github](https://github.com/Codag/AlchemyApiBundle)
 * [Packagist](https://packagist.org/packages/codag/alchemyapi-bundle)
-
-## Note
-
-> *The inital deployment of this bundle provides an unimpressive amount of functionality regarding to the powerful api of AlchemyAPI. The given implementation was needed for a project at Codag which was one of the reasons I decided to launch this bundle – next to the fact that there was no other implementation available and I'm always glad to contribute to the community. I've investigated some time in thinking about structure, scalability as well as usage of this bundle. Now it's time to extend the functionality of this bundle and I hope there are Symfony developers they already can use this bundle and will contribute if further implementation was neccessary.*
