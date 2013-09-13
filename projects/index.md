@@ -3,6 +3,7 @@ layout: page
 title: "Projects"
 description: "Personal Projects"
 group: navigation
+weight: 2
 ---
 {% include JB/setup %}
 
