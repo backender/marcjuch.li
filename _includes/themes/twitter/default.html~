@@ -53,9 +53,8 @@
       </div>
       <hr>
       <footer>
-        <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }} -
-          powered by <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll</a>
-          and hosted at <a href="http://hostag.ch" target="_blank" title="Hostag - Hosting Agency/Services">Hostag</a>
+        <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
+          - powered by <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll</a> / hosted at <a href="http://hostag.ch/" target="_blank">Hostag</a>
         </p>
       </footer>
 
