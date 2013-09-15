@@ -3,7 +3,6 @@ layout: page
 title: "References"
 description: "References"
 group: navigation
-weight: 4
 ---
 {% include JB/setup %}
 
