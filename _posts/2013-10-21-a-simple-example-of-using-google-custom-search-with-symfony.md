@@ -3,7 +3,7 @@ layout: post
 title: "Using Google Custom Search with Symfony"
 description: "Using Google Custom Search with Symfony"
 category: blog
-tags: [symfony, google custom search, api]
+tags: [symfony2, google, custom search, api]
 ---
 {% include JB/setup %}
 
