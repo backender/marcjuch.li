@@ -208,6 +208,7 @@ The controller part is pretty simple, since the "heavy" stuff is alredy done in 
 **1. Bind the form**
 
 {% highlight php %}
+<?php
 $form = $this->createForm(new ArchivSearchType());
 $form->bind($request);
 $formData = $form->getData();
@@ -219,6 +220,7 @@ First of all we need to bind the form to check if the user sent a serach request
 **2. Call findByGoogle**
 
 {% highlight php %}
+<?php
 $options = array(
 	'key' => $this->container->getParameter('google_cse_key'),
 	'cx' => $this->container->getParameter('google_cse_cx'),
@@ -232,6 +234,7 @@ If a request was sent to the controller with a valid value for q (remember this 
 **3. Return the results**
 
 {% highlight php %}
+<?php
 if($magazinesByGoogle !== null) {
 	$magazines = $magazinesByGoogle->getQuery()->getResult();;
 	return array(
