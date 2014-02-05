@@ -38,15 +38,14 @@ We are specialized in providing individual hosting setups. Especially ambitious 
 ## Issue Bidder
 
 Issue Bidder is a side project of mine that lets you post an Issue created on GitHub so that not only you but also any other people they are interested in that issue, can offer any amount of money in the hope that an other developer can fix this.
-<br>
-<a target="_blank" href="https://issue-bidder.com">issue-bidder.com</a>
+<br><br>
+<a target="_blank" href="https://issue-bidder.com">www.issue-bidder.com</a>
 <br><br>
 The application is built with Symfony2 and makes among other things extensive use of the following API's:
 <ul>
     <li>GitHub</li>
     <li>PayPal</li>
 </ul>
-<br>
 The server setup is based on a personal VPS server.
 A NGINX webserver with a tailored configuration and SSL certificate brings the necessary performance and security.
 
