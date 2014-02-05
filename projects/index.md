@@ -21,9 +21,9 @@ The Coding Agency (Codag) is a long term project and currently in the founding p
 
 With interests in server administration, service quality and availability as well as the open source project [ISPConfig](http://ispconfig.org) we are maintaining a powerful hosting environment:
 
-- 2 x Nameservers
-- 1 x Mailservers
-- 1 x Webservers
+- Nameservers
+- Mailservers
+- Webservers
 - X x VPS (Managed for clients)
 
 We are specialized in providing individual hosting setups. Especially ambitious clients using Symfony appreciate a harmonized server/application environment
@@ -32,6 +32,22 @@ We are specialized in providing individual hosting setups. Especially ambitious 
 
 <a target="_blank" href="http://hostag.ch">www.hostag.ch</a>
 *(under construction)*
+
+* * *
+
+## Issue Bidder
+
+Issue Bidder is a side project of mine that lets you post an Issue created on GitHub so that not only you but also any other people they are interested in that issue, can offer any amount of money in the hope that an other developer can fix this.
+<br>
+<a target="_blank" href="https://issue-bidder.com">issue-bidder.com</a>
+<br>
+The application is built with Symfony2 and makes among other things extensive use of the following API's:
+<ul>
+    <li>GitHub</li>
+    <li>PayPal</li>
+</ul>
+The server setup is based on a personal VPS server.
+A NGINX webserver with tailored configuration and SSL certificate brings the necessary performance and security.
 
 * * *
 
@@ -45,10 +61,3 @@ at Starbucks and came up with the idea of Likeme - a little social network where
 <br />
 *Likeme was the first Symfony2 project for all of us. In the end it's of course a mess of code with a lot of bad practices but in this case it's not that bad.
 We did this project to not only learn Symfony but also learn working together in a software project.*
-
-* * *
-
-## ResIO
-A global reservation platform is still missing in the internet.
-
-More informations are comming soon.
