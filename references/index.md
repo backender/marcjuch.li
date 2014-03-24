@@ -38,8 +38,3 @@ group: navigation
 ## <a target="_blank" href="http://schwingenonline.ch">Schwingenonline</a>
 
  - Backend Development (Wordpress)
-
-* * *
- 
-## Template Sites and other simple Sites
-To be found on: <a href="http://codag.co" target="_blank">Codag Commercial</a>
