@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "CodagCodagPredictionIOBundle"
+title: "CodagPredictionIOBundle"
 description: ""
 category: publication
 tags: [symfony2, predictionio]
