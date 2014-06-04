@@ -74,13 +74,14 @@
       <div class="content">
         {{ content }}
       </div>
-      <hr>
-      <footer>
-        <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
-          - powered by <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll</a> / hosted at <a href="http://hostag.ch/" target="_blank">Hostag</a> / code on <a target="_blank" href="https://github.com/backender/marcjuch.li">Github</a>
-        </p>
-      </footer>
-
+      <div class="row">
+          <hr>
+          <footer>
+            <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
+              - powered by <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll</a> / hosted at <a href="http://hostag.ch/" target="_blank">Hostag</a> / code on <a target="_blank" href="https://github.com/backender/marcjuch.li">Github</a>
+            </p>
+        </footer>
+        </div>
     </div>
 
     {% include JB/analytics %}

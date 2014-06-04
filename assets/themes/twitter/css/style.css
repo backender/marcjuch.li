@@ -9,6 +9,10 @@
 .navbar .nav {
   float: right; }
 
+.navbar-inner {
+    background: none;
+}
+
 /* posts index */
 .post > h3.title {
   position: relative;
