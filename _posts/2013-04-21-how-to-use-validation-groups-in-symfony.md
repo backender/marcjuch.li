@@ -86,6 +86,7 @@ use Symfony\Component\Validator\Constraints as Assert;
  *
  * @ORM\Table(name="subscriber")
  * @ORM\Entity
+ * @ORM\HasLifecycleCallbacks
  */
 class Subscriber
 {
