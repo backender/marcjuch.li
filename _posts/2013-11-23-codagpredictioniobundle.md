@@ -7,21 +7,23 @@ tags: [symfony2, predictionio]
 ---
 {% include JB/setup %}
 
-## Introduction
 
 [![Build Status](https://travis-ci.org/Codag/PredictionIOBundle.png?branch=master)](https://travis-ci.org/Codag/PredictionIOBundle)
 [![Total Downloads](https://poser.pugx.org/codag/predictionio-bundle/downloads.png)](https://packagist.org/packages/codag/predictionio-bundle)
 [![Latest Stable Version](https://poser.pugx.org/codag/predictionio-bundle/v/stable.png)](https://packagist.org/packages/codag/predictionio-bundle)
 
-This bundle provides an [PredictionIO](http://prediction.io/) integration for your Symfony2 Project.
+## Introduction
 
-### Note
+This bundle provides an [PredictionIO](http://prediction.io/) integration for
+your Symfony2 Project. In effect, it is just a wrapper for the
+PredictionIO-PHP-SDK and will support all methods provided in the SDK.
+Fortunately, in Symfony2 this can be done using the [dependency injection
+component](http://symfony.com/doc/current/components/dependency_injection/introduction.html)
+whereas parameters are configurable in separate config/parameter files.
+
+### Sandbox
 
 For further implementation examples please see also our [Sandbox](https://github.com/Codag/PredictionIOBundle-Sandbox).
-
-## Structure
-
-This Bundle is a wrapper for the [PredictionIO-PHP-SDK](https://github.com/PredictionIO/PredictionIO-PHP-SDK) and will support all methods provided in the SDK.
 
 ## Usage
 
