@@ -77,7 +77,7 @@ group: navigation
 
 * * *
 
-## <a target="_blank" href="http://ba-gestaltung.ch">Baumgartner & Annaheim Gestaltung</a>
+## <a target="_blank" href="http://ba-gestaltung.ch">Baumgartner &amp; Annaheim Gestaltung</a>
 
  - Backend: Wordpress
  - Frontend: Custom Wordpress Theme / Jquery
