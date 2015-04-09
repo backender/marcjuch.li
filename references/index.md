@@ -8,7 +8,7 @@ group: navigation
 
 <blockquote>
 <h4>The below listed references are customer projects of my company Codag including the provided services.</h4>
-</blockquote>
+</blockquote><br>
 
 
 ## <a target="_blank" href="http://bma.codag.ch">Baur Metallbau AG (wip)</a>
