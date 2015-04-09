@@ -22,6 +22,43 @@ Besides, with interests in server administration, service quality and availabili
 - Shared Hosting
 
 We are specialized in providing individual hosting setups. Especially ambitious clients using Symfony2 appreciate a harmonized server/application environment.
+<br /><br />
+
+* * *
+
+### Haskell Message Broker (HMB) <small>(Bachelors Thesis)</small>
+
+Work in progress: [https://github.com/hmb-ba](https://github.com/hmb-ba)
+
+<br /> <br />
+
+* * *
+
+### Smart Meeting Planner <small>(Studienarbeit)</small>
+
+<b>Thesis:</b> <a href="../uploads/Thesis_Studienarbeit_SMP.pdf">PDF Download</a><br>
+<b>Project Partner:</b> Flughafen Zürich AG
+
+Die Organisation von Meetings in grösserem Geschäftsumfeld, insbesondere beim Flughafen Zü-
+rich, gestaltet sich als zunehmend komplizierter und wird durch die bestehenden Mail- und
+Kalendersysteme noch zu wenig gut unterstützt. Vielfach müssen dafür verschiedene Dienste wie
+z.B. der Microsoft Exchange Kalender, Doodle Pools und klassische Mails/Anrufe kombiniert
+eingesetzt werden, um den Prozess der Terminfindung bis zur Termineinladung zu meistern.
+Dies liegt daran, dass die einzelnen Dienste nur spezifische Aspekte für sich besonders gut un-
+terstützen (z.B. gemeinsamer Kalender, Termin-Umfrage).
+<br><br>
+Im konkreten Fall von Microsoft Exchange Server mit Outlook Clients ist zwar gemeinsame
+Termineinladung und Einsicht in die Ressourcen (Kalender von Personen und Räumen) gut
+unterstützt. Jedoch fehlt ein effizienter Mechanismus, um freie Terminvorschläge zwischen be-
+teiligten Personen mit entsprechenden freien Räumlichkeiten zu eruieren. Dies lässt sich durch
+Einsatz einer externen Termin-Umfrage (wie z.B. Doodle) bewältigen, wobei dies jedoch in vielen
+Unternehmungen aus Gründen von Geheimhaltung und Datenschutz vermieden wird.
+<br><br>
+Das Ziel dieser Studienarbeit ist es deshalb, einen Prozess zur verbesserten intelligente Termin-
+findung zu konzipieren. Dieser soll dann als Prototyp mit Integration in den Microsoft Exchange
+Servers (allenfalls mit Outlook) implementiert werden.
+
+<br /> <br />
 
 * * *
 
@@ -48,7 +85,7 @@ A NGINX webserver with a tailored configuration and SSL certificate brings the n
 
 <a href="/assets/img/vkweb_einsatzverwaltung.png"><img src="/assets/img/vkweb_einsatzverwaltung.png" wdith="80%" /></a>
 
-#### A management and planing tool for the Verkehrskadetten Zürichsee.
+**A management and planing tool for the Verkehrskadetten Zürichsee.**
 
 VKweb initially was a is a school project (Software Engineering Project) together with 3 team members. As this is a Symfony2 project on server-side my role is also to lead the team in terms of technical decisions and the procedure of development.
 <br><br>
