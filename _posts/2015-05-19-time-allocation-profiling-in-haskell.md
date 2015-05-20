@@ -24,7 +24,7 @@ to **true**:
 
 {% highlight bash %}
 library-profiling: True
-library-profiling: True
+executable-profiling: True
 {% endhighlight %}
 
 <br>
