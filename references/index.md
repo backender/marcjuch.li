@@ -11,7 +11,7 @@ group: navigation
 </blockquote><br>
 
 
-## <a target="_blank" href="http://bma.codag.ch">Baur Metallbau AG (wip)</a>
+## <a target="_blank" href="http://baurmetallbau.ch">Baur Metallbau AG</a>
 
  - Backend: Wordpress / wpackagist
  - Frontend: Custom Wordpress Theme / Twig / less / Jquery

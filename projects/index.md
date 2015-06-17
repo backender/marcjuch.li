@@ -11,24 +11,54 @@ group: navigation
 I'm the owner of Code Agency Juchli (Codag).
 
 Codag provides agile Software Engineering with a main focus on Web development, Restful APIs, Messaging.
-We rely on OpenSource in our daily business. To give the community something back, we from time to time open source some of our in-house developed projects (see [Codag@Github](https://github.com/Codag)) or contribute to other projects directly.
+We rely on open source in our daily business. To give the community something back, we from time to time open source some of our in-house developed projects (see [Codag@Github](https://github.com/Codag)) or contribute to other projects directly.
 
 Besides, with interests in server administration, service quality and availability as well as the open source project [ISPConfig](http://ispconfig.org), we are maintaining a powerful hosting environment:
 
-- Nameservers
-- Mailservers
-- Webservers
-- VPS Servers
-- Shared Hosting
-
-We are specialized in providing individual hosting setups. Especially ambitious clients using Symfony2 appreciate a harmonized server/application environment.
 <br /><br />
 
 * * *
 
 ### Haskell Message Broker (HMB) <small>(Bachelors Thesis)</small>
 
-Work in progress: [https://github.com/hmb-ba](https://github.com/hmb-ba)
+<a href="../uploads/Thesis_Poster_mjuchli_lwolf.pdf"><img src="../uploads/hmb_poster_partial.png" width="90%" /></a>
+
+**Thesis:** [PDF Download](../uploads/Thesis_eprints_mjuchli_lwolf.pdf) <br>
+**Poster:** [PDF Download](../uploads/Thesis_Poster_mjuchli_lwolf.pdf) <br>
+**GitHub:** [https://github.com/hmb-ba](https://github.com/hmb-ba) <br>
+
+The aim of this thesis is to provide a summary of the current state of message
+oriented-middleware and eventually build a message broker in Haskell, adapted
+from the concepts of Apache Kafka which was originally built at LinkedIn. The
+implementation shall provide basic functionalities such as producing and
+consuming messages, with the aim to approximate performance of Apache Kafka
+in a non-clustered setup. The Apache Kafka Protocol is being used as the
+underlying wire-protocol and is implemented in a standalone library. On top of
+the procotol library, a separate client library is provided. Thus, the Haskell
+Message Broker (HMB) as well as its producer and consumer clients have been
+successfully proofed as compatible with Apache Kafka.
+
+This thesis first examines the fundamental concepts behind messaging and
+discloses the needs for message brokers.  In a second stage of this
+technology research, the purpose of event-streaming is described, containing a
+comparison of batch and stream processing by explaining the
+differences in their nature. Finally the concept and features of Apache
+Kafka is presented.  Insights into the HMB implementation is provided in the
+technical report and is split into two stages.  At first, the protocol
+and client library is introduced. Subsequently the broker implementation
+is explained including its capabilities as well as the provided
+set of features. After all, HMB is applied to a benchmark against
+Apache Kafka.
+
+The results of this proof of concept shows that Haskell is well suited to build
+messaging applications as well as implementing protocols based on context free
+grammars. The from HMB provided performance hit the one of Apache Kafka for
+transmission of larger message sizes during the benchmark. For the most tested
+scenarios the performance suffers as HMB is not sufficiently optimized yet.
+However, the Haskell Message Broker is a well established basis of a
+state-of-the-art message broker implementation. The authors recommend to apply
+further optimization techniques as well as extending the feature-set before any
+other use.
 
 <br /> <br />
 
